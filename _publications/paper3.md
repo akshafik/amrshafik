@@ -1,7 +1,7 @@
 ---
 title: "Kalman Filter-based Real-Time Traffic State Estimation and Prediction using Vehicle Probe Data"
-collection: conference
-category: manuscripts
+collection: publications
+category: conferences
 permalink: /publication/paper3
 excerpt: 'This paper presents a bi-level Kalman filter methodology for real-time traffic state estimation and short-term prediction at signalized intersections.'
 date: 2024-10-30
