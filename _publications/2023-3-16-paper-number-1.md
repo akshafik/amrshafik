@@ -6,7 +6,7 @@ permalink: /publication/2023-3-16-paper-number-1
 excerpt: 'This paper introduces a robust green light optimal speed advisory (GLOSA) system for fixed and actuated traffic signals considering a probability distribution.'
 date: 2023-03-16
 venue: 'IEEE Transactions on Intelligent Transportation Systems'
-slidesurl: 'http://academicpages.github.io/files/slides1.pdf'
+slidesurl: 'https://ieeexplore.ieee.org/abstract/document/10073959'
 paperurl: 'https://ieeexplore.ieee.org/abstract/document/10073959'
 citation: 'A. K. Shafik, S. Eteifa and H. A. Rakha, "Optimization of Vehicle Trajectories Considering Uncertainty in Actuated Traffic Signal Timings," in IEEE Transactions on Intelligent Transportation Systems, vol. 24, no. 7, pp. 7259-7269, July 2023, doi: 10.1109/TITS.2023.3253424.'
 ---
