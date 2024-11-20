@@ -6,7 +6,7 @@ permalink: /publication/paper3
 excerpt: 'This paper presents a bi-level Kalman filter methodology for real-time traffic state estimation and short-term prediction at signalized intersections.'
 date: 2024-10-30
 venue: '2024 IEEE International Conference on Smart Mobility (SM), Niagara Falls, ON, Canada, 2024'
-slidesurl: https://ieeexplore.ieee.org/document/10733394'
+slidesurl: 'https://ieeexplore.ieee.org/document/10733394'
 paperurl: 'https://ieeexplore.ieee.org/document/10733394'
 citation: 'A. K. Shafik and H. A. Rakha, "Kalman Filter-based Real-Time Traffic State Estimation and Prediction using Vehicle Probe Data," 2024 IEEE International Conference on Smart Mobility (SM), Niagara Falls, ON, Canada, 2024, pp. 110-115, doi: 10.1109/SM63044.2024.10733394.'
 ---
