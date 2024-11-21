@@ -1,107 +1,63 @@
 ---
-layout: archive
-title: "CV"
-permalink: /cv/
+permalink: /
+title: "Research Interests"
 author_profile: true
-redirect_from:
-  - /resume
+redirect_from: 
+  - /research/
+  - /research.html
 ---
 
-{% include base_path %}
+# Research Areas
 
-Education
-======
-* Ph.D in Civil Engineering, Virginia Tech, 2025 (expected)
-* M.S. in Civil Engineering, Cairo University, 2020
-* B.S. in Civil Engineering, Cairo University, 2016
+## 1. Connected and Automated Vehicles (CAVs)
 
----
-Work experience
-======
-### Traffic Engineer  
-**District Department of Transportation (DDOT), Washington, DC**  
-*June 2023 – August 2023*  
-- **Reviewing Traffic Impact Technical Reports and Traffic Analysis Models:**  
-  - Assessed traffic impact reports and traffic management plans for I-395 in Washington, DC, aimed at mitigating congestion due to bridge rehabilitation projects.  
-  - Reviewed Synchro models for multiple consecutive signalized corridors in Washington, DC.  
-- **Conducting Site Visits to Monitor Project Progress:**  
-  - Performed site visits and participated in on-site follow-up meetings with consultants and contractors to discuss progress and address challenges at the Florida Ave./New York Ave. intersection in Washington, DC.  
+### Optimizing Vehicle Trajectories
+My research focuses on optimizing vehicle trajectories near actuated traffic signals in stochastic environments. By incorporating traffic uncertainties, I aim to enhance fuel efficiency, reduce delays, and improve overall traffic flow. This involves using advanced algorithms like **Kalman filters** to estimate traffic state characteristics and leveraging game-theoretic frameworks to balance individual vehicle performance with system-wide efficiency.
 
-<!-- ### Freelance Transportation Planning and Traffic Engineer  
-*January 2017 – January 2024*  
-- Replicated and updated national transportation demand models for Egypt, originally developed in CUBE software by JICA (2010), to incorporate current demand patterns for both passengers and freight movements.  
-- Calibrated demand models using traffic survey data collected from railway and roadway feasibility studies.  
-- Developed macroscopic transportation models for various railway and road strategic projects using "PTV Visum Software.”  
-- Conducted traffic impact assessments for new developments, including schools, shopping malls, residential neighborhoods, and healthcare facilities, across Egypt and the Gulf region.   -->
-
-### Graduate Research Assistant  
-**Virginia Tech Transportation Institute (VTTI), Blacksburg, VA**  
-*August 2021 – Present*  
-- Extracted bike trajectories (speed profiles) from recorded campus videos to develop bike-following models.  
-- Processed large drone-based probe vehicle datasets to derive traffic demand and dynamics (e.g., speeds and accelerations).  
-- Optimized connected and automated vehicle (CV/CAV) trajectories in stochastic environments near actuated traffic signals.  
-- Estimated queue lengths and traffic density using probe vehicle data and Kalman filters.  
-- Conducted traffic signal optimization within a game-theoretic framework to enhance flow and reduce delays.  
-
-### Graduate Research Assistant  
-**Cairo University, Faculty of Engineering, Cairo, Egypt**  
-*January 2017 – August 2021*  
-- Worked with project teams on e-mobility strategies and market potential assessments for the short to medium term (EBRD).  
-- Calibrated microscopic simulation parameters using machine learning in Vissim.  
-- Integrated coding languages with PTV software through APIs.  
-- Used genetic algorithms to calibrate demand models for proposed railway networks.  
-- Conducted sensitivity analyses for proposed railway scenarios and provided results for economic feasibility evaluations.
+### Queue Length and Density Estimation
+I develop methodologies to estimate queue lengths and traffic density using probe vehicle data. These estimations are crucial for real-time optimization of CAV movements and ensuring smoother traffic flow at intersections.
 
 ---
-Technical Skills
-======
-### Software Proficiency
-- **Traffic Simulation and Analysis:** Vissim, Visum, Synchro, HCS, SIDRA.  
-- **Transportation Network Modeling:** PTV Visum Software.  
-- **GIS Software:** ArcMap, ArcGIS Pro.  
-- **Design Tools:** AutoCAD, AutoCAD Civil 3D.  
-  - Importing survey points.  
-  - Creating surfaces, vertical and horizontal alignments, surface profiles, assemblies, corridors, and road sections.  
-- **General Software:** Microsoft Office Suite, LaTeX.  
 
-### Programming and Frameworks
-- **Programming Languages:** Python, R, C++, Java, VBA, MySQL.  
-- **Machine Learning Frameworks:** TensorFlow, Keras.  
-- **Optimization Modeling:** CPLEX, Gurobi.  
+## 2. Traffic Signal Optimization
 
-### Domain Expertise
-- Demand estimation modeling and traffic survey analysis.  
-- Traffic performance optimization.  
-- Building optimization models for traffic systems.  
-- Integration of coding languages with traffic software through APIs.  
+### Game-Theoretic Traffic Signal Control
+I work on enhancing traffic signal controllers using game-theoretic approaches to reduce delays and fuel consumption. My research explores decentralized, cycle-free adaptive controllers that dynamically adjust to real-time traffic conditions. This novel approach demonstrates significant improvements in both vehicle flow and environmental sustainability.
 
-### Additional Skills
-- Developing macroscopic transportation models.  
-- Conducting traffic impact assessments and feasibility studies.  
-- Queue and density estimation using advanced algorithms like Kalman filters.  
-- Proficient in using genetic algorithms for model calibration.  
-
+### Integration with Connected Vehicle Systems
+This branch intersects with my CAV research, where optimized traffic signal strategies are combined with vehicle trajectory planning to create a unified, efficient traffic system.
 
 ---
-Publications
-======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
+
+## 3. Eco-Driving Systems
+I design **eco-driving systems** that provide optimal speed profiles for vehicles approaching signalized intersections. This work focuses on **actuated traffic signals**, which are more dynamic and challenging to predict. My research considers surrounding traffic and vehicle queues to enhance the accuracy of the optimization, ensuring that eco-driving strategies deliver measurable benefits in fuel savings and emissions reduction.
 
 ---
-<!-- Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* To be completed -->
+
+## 4. Machine Learning in Transportation
+
+### Traffic State Prediction
+I employ machine learning techniques such as **LSTM** and **neural networks** to predict traffic states and demands. These predictive models provide valuable insights for traffic management systems to anticipate congestion and deploy proactive measures.
+
+### Microscopic Simulation Calibration
+Using AI and genetic algorithms, I calibrate microscopic traffic simulation models (e.g., VISSIM) to mimic real-world driving behavior. These calibrated models are vital for accurate testing and evaluation of traffic management strategies.
+
+---
+
+## 5. Transportation Planning and Policy
+
+### Strategic Mobility Planning
+I have contributed to large-scale transportation planning projects, such as national transportation demand models and feasibility studies for metro and railway networks. My work involves replicating and updating these models using modern tools like **PTV Visum** and conducting **economic feasibility analyses**.
+
+### E-Mobility and Sustainable Transport
+Through my collaborations with organizations like the **EBRD** and **World Bank**, I’ve studied the market potential for **e-mobility solutions** in developing countries. This research informs strategies to promote sustainable transportation, particularly in urban areas.
+
+---
+
+## 6. Stochastic and Optimization Techniques
+I apply stochastic optimization methods to tackle uncertainty in traffic systems. My work integrates these techniques with **Kalman filtering**, **game theory**, and **machine learning models** to create robust solutions for real-time traffic control and vehicle trajectory planning.
+
+---
+
+## Vision
+My research aims to bridge the gap between vehicle and infrastructure optimization. By combining advanced modeling, machine learning, and optimization techniques, I strive to develop **sustainable, efficient, and intelligent transportation systems** that address real-world challenges in mobility.
