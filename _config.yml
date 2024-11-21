@@ -23,7 +23,7 @@ author:
   # Biographic information
   avatar           : "ashafik_profile.jpg"
   name             : "Amr K. Shafik"
-  pronouns         : "he/his"  
+  pronouns         : "He/His"  
   bio              : "Ph.D. Candidate at Virginia Tech, Experienced in Traffic Flow Theory, Traffic Signal Control, and Connected and Automated Vehicles."
   location         : "Blacksburg, Virginia, US"
   employer         : "Virginia Tech"
@@ -282,7 +282,7 @@ defaults:
     values:
       layout: talk
       author_profile: true
-      share: true
+      share: false
 
 
 # Sass/SCSS
