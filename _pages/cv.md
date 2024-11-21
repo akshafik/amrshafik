@@ -15,11 +15,10 @@ Education
 * M.S. in Civil Engineering, Cairo University, 2020
 * B.S. in Civil Engineering, Cairo University, 2016
 
+---
 Work experience
 ======
-### Work Experience
-
-#### Traffic Engineer  
+### Traffic Engineer  
 **District Department of Transportation (DDOT), Washington, DC**  
 *June 2023 – August 2023*  
 - **Reviewing Traffic Impact Technical Reports and Traffic Analysis Models:**  
@@ -28,14 +27,14 @@ Work experience
 - **Conducting Site Visits to Monitor Project Progress:**  
   - Performed site visits and participated in on-site follow-up meetings with consultants and contractors to discuss progress and address challenges at the Florida Ave./New York Ave. intersection in Washington, DC.  
 
-<!-- #### Freelance Transportation Planning and Traffic Engineer  
+<!-- ### Freelance Transportation Planning and Traffic Engineer  
 *January 2017 – January 2024*  
 - Replicated and updated national transportation demand models for Egypt, originally developed in CUBE software by JICA (2010), to incorporate current demand patterns for both passengers and freight movements.  
 - Calibrated demand models using traffic survey data collected from railway and roadway feasibility studies.  
 - Developed macroscopic transportation models for various railway and road strategic projects using "PTV Visum Software.”  
 - Conducted traffic impact assessments for new developments, including schools, shopping malls, residential neighborhoods, and healthcare facilities, across Egypt and the Gulf region.   -->
 
-#### Graduate Research Assistant  
+### Graduate Research Assistant  
 **Virginia Tech Transportation Institute (VTTI), Blacksburg, VA**  
 *August 2021 – Present*  
 - Extracted bike trajectories (speed profiles) from recorded campus videos to develop bike-following models.  
@@ -44,7 +43,7 @@ Work experience
 - Estimated queue lengths and traffic density using probe vehicle data and Kalman filters.  
 - Conducted traffic signal optimization within a game-theoretic framework to enhance flow and reduce delays.  
 
-#### Graduate Research Assistant  
+### Graduate Research Assistant  
 **Cairo University, Faculty of Engineering, Cairo, Egypt**  
 *January 2017 – August 2021*  
 - Worked with project teams on e-mobility strategies and market potential assessments for the short to medium term (EBRD).  
@@ -53,12 +52,10 @@ Work experience
 - Used genetic algorithms to calibrate demand models for proposed railway networks.  
 - Conducted sensitivity analyses for proposed railway scenarios and provided results for economic feasibility evaluations.
 
-  
+---
 Technical Skills
 ======
-### Technical Skills
-
-#### Software Proficiency
+### Software Proficiency
 - **Traffic Simulation and Analysis:** Vissim, Visum, Synchro, HCS, SIDRA.  
 - **Transportation Network Modeling:** PTV Visum Software.  
 - **GIS Software:** ArcMap, ArcGIS Pro.  
@@ -67,31 +64,32 @@ Technical Skills
   - Creating surfaces, vertical and horizontal alignments, surface profiles, assemblies, corridors, and road sections.  
 - **General Software:** Microsoft Office Suite, LaTeX.  
 
-#### Programming and Frameworks
+### Programming and Frameworks
 - **Programming Languages:** Python, R, C++, Java, VBA, MySQL.  
 - **Machine Learning Frameworks:** TensorFlow, Keras.  
 - **Optimization Modeling:** CPLEX, Gurobi.  
 
-#### Domain Expertise
+### Domain Expertise
 - Demand estimation modeling and traffic survey analysis.  
 - Traffic performance optimization.  
 - Building optimization models for traffic systems.  
 - Integration of coding languages with traffic software through APIs.  
 
-#### Additional Skills
+### Additional Skills
 - Developing macroscopic transportation models.  
 - Conducting traffic impact assessments and feasibility studies.  
 - Queue and density estimation using advanced algorithms like Kalman filters.  
 - Proficient in using genetic algorithms for model calibration.  
 
 
-
+---
 Publications
 ======
   <ul>{% for post in site.publications reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
-  
+
+---
 <!-- Talks
 ======
   <ul>{% for post in site.talks reversed %}
