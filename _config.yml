@@ -8,7 +8,7 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "Amr Shafik"
+title                    : "Home"
 title_separator          : "-"
 name                     : &name "Amr Shafik"
 description              : &description "personal description"
