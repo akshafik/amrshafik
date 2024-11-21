@@ -1,4 +1,4 @@
----
+<!-- ---
 permalink: /
 title: "Research Interests"
 author_profile: true
@@ -6,8 +6,6 @@ redirect_from:
   - /research/
   - /research.html
 ---
-
-# Research Areas
 
 ## 1. Connected and Automated Vehicles (CAVs)
 
@@ -60,4 +58,4 @@ I apply stochastic optimization methods to tackle uncertainty in traffic systems
 ---
 
 ## Vision
-My research aims to bridge the gap between vehicle and infrastructure optimization. By combining advanced modeling, machine learning, and optimization techniques, I strive to develop **sustainable, efficient, and intelligent transportation systems** that address real-world challenges in mobility.
+My research aims to bridge the gap between vehicle and infrastructure optimization. By combining advanced modeling, machine learning, and optimization techniques, I strive to develop **sustainable, efficient, and intelligent transportation systems** that address real-world challenges in mobility. -->
