@@ -1,13 +1,14 @@
-<!-- ---
-permalink: /
-title: "Research Interests"
+---
+permalink: /research/
+title: "Research"
 author_profile: true
 redirect_from: 
   - /research/
   - /research.html
 ---
 
-## 1. Connected and Automated Vehicles (CAVs)
+
+<!-- ## 1. Connected and Automated Vehicles (CAVs)
 
 ### Optimizing Vehicle Trajectories
 My research focuses on optimizing vehicle trajectories near actuated traffic signals in stochastic environments. By incorporating traffic uncertainties, I aim to enhance fuel efficiency, reduce delays, and improve overall traffic flow. This involves using advanced algorithms like **Kalman filters** to estimate traffic state characteristics and leveraging game-theoretic frameworks to balance individual vehicle performance with system-wide efficiency.
