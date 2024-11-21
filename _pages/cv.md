@@ -16,6 +16,7 @@ Education
 * B.S. in Civil Engineering, Cairo University, 2016
 
 ---
+
 Work experience
 ======
 ### Traffic Engineer  
@@ -53,6 +54,7 @@ Work experience
 - Conducted sensitivity analyses for proposed railway scenarios and provided results for economic feasibility evaluations.
 
 ---
+
 Technical Skills
 ======
 ### Software Proficiency
@@ -83,6 +85,7 @@ Technical Skills
 
 
 ---
+
 Publications
 ======
   <ul>{% for post in site.publications reversed %}
