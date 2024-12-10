@@ -8,7 +8,7 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "Amr Shafik"
+title                    : "Home"
 title_separator          : "-"
 name                     : &name "Amr Shafik"
 description              : &description "personal description"
@@ -23,8 +23,8 @@ author:
   # Biographic information
   avatar           : "ashafik_profile.jpg"
   name             : "Amr K. Shafik"
-  pronouns         : "he/his"  
-  bio              : "PhD Candidate at Virginia Tech, Experienced in Traffic Flow Theory, Traffic Signal Control, and Connected and Automated Vehicles."
+  pronouns         : "He/His"  
+  bio              : "Ph.D. Candidate at Virginia Tech, Experienced in Traffic Flow Theory, Traffic Signal Control, and Connected and Automated Vehicles."
   location         : "Blacksburg, Virginia, US"
   employer         : "Virginia Tech"
   uri              : # URL
@@ -82,6 +82,8 @@ publication_category:
     title: 'Journal Articles'    
   conferences:
     title: 'Conference Papers'
+  reports:
+    title: 'Research Reports'
 
 # Site Settings
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
@@ -224,6 +226,9 @@ collections:
   talks:
     output: true
     permalink: /:collection/:path/
+  research:
+    output: true
+    permalink: /:collection/:path/
 
 
 # These settings control how pages and collections are included in the site
@@ -281,10 +286,11 @@ defaults:
       layout: talk
       author_profile: true
       share: true
-  # _calendar
+      comment: true
+  # _research
   - scope:
       path: ""
-      type: calendar
+      type: research
     values:
       layout: single
       author_profile: true
