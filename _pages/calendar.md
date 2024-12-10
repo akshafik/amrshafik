@@ -11,3 +11,12 @@ author_profile: true
 
 
 <iframe src="https://outlook.office365.com/calendar/published/2abe408783e44b3d86712420e84e6485@vt.edu/b9d3c0d550ee4eb686db962019e78e4814894787383371603644/calendar.html" style="border: 0" width="1000" height="600" frameborder="0" scrolling="yes"></iframe>
+
+<div style="display: flex; justify-content: center; align-items: center; padding: 20px; box-sizing: border-box;">
+    <iframe 
+        src="https://outlook.office365.com/calendar/published/2abe408783e44b3d86712420e84e6485@vt.edu/b9d3c0d550ee4eb686db962019e78e4814894787383371603644/calendar.html" 
+        style="border: none; width: 100%; max-width: 1200px; height: 700px;" 
+        frameborder="0" 
+        scrolling="yes">
+    </iframe>
+</div>
