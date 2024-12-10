@@ -9,7 +9,7 @@ redirect_from:
 
 {% include base_path %}
 
-Education
+Education:
 ======
 * Ph.D in Civil Engineering, Virginia Tech, 2025 (expected)
 * M.S. in Civil Engineering, Cairo University, 2020
