@@ -6,21 +6,19 @@ redirect_from:
   - /about/
   - /about.html
 ---
-Amr Shafik is currently working as a **Transportation Research Engineer** in the Center of Applied Transportation Sciences (CATS) at the University of Arizona. He earned a Ph.D. in Civil Engineering from Virginia Tech in 2025, a M.Sc. in Transportation Engineering from Cairo University in 2020, and a B.Sc. (Hons.) in Civil Engineering from Cairo University, Cairo, Egypt, in 2016.
+Amr Shafik is currently working as a **Transportation Research Engineer** in the Center of Applied Transportation Sciences (CATS) as well as the Arizona Transportation Institute (AZTI) at the University of Arizona. He earned a Ph.D. in Civil Engineering from Virginia Tech in 2025, a M.Sc. in Transportation Engineering from Cairo University in 2020, and a B.Sc. (Hons.) in Civil Engineering from Cairo University, Cairo, Egypt, in 2016.
 
 
-Amr is also working with the Arizona Transportation Institute (AZTI). His research interests span a wide range of topics, including:  
-- Traffic control and optimization  
-- Traffic modeling and simulation  
-- Intelligent transportation systems  
-- Transportation planning  
-
+Amr's research interests span a wide range of topics including traffic operations and transportation planning.
+ 
 ---
 
 ### Research Interests
 
 - **Traffic Flow Theory**  
-- **Traffic Engineering**  
+- **Traffic Control and Optimization.**  
+- **Traffic Modeling and Simulation.**
+- **Intelligent Transportation Systems (ITS)**
 - **Transportation Planning**  
 - **Traffic Signal Optimization**  
 - **Stochastic Optimization**  
