@@ -183,17 +183,7 @@ Dedicated researcher with a PhD in Civil and Environmental Engineering from Virg
 ## Publications (Selected)
 <ul>{% for post in site.publications reversed %}
   {% include archive-single-cv.html %}
-{% endfor %}</ul> -->
-
-x
-<!-- **Journal Articles**  
-- Shafik, A.K. & Rakha, H.A. *Optimization of Vehicle Trajectories Considering Uncertainty in Actuated Traffic Signal Timings.* IEEE Transactions on ITS.  
-- Shafik, A.K., Rakha, H.A. *Real-Time Traffic State Estimation and Short-Term Prediction Using Probe Vehicle Data: A Kalman Filter Approach.* Sensors.  
-- Shafik, A.K. et al. *Online Vissim Traffic Microscopic Calibration Using AI for Cairo CBD.* *Ekistics and The New Habitat.*  
-
-**Conference Papers**  
-- TRB 2023, 2024, 2025  
-- IEEE Smart Mobility Conference 2024   -->
+{% endfor %}</ul>
 
 ---
 
