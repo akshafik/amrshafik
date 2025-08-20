@@ -23,7 +23,7 @@ author:
   # Biographic information
   avatar           : "ashafik_profile.jpg"
   name             : "Amr K. Shafik"
-  pronouns         : "He/His"  
+  # pronouns         : "He/Him/His"  
   bio              : "Ph.D., Experienced in Traffic Flow Theory, Traffic Signal Control, and Connected and Automated Vehicles."
   location         : "Tucson, Arizona, US"
   employer         : "University of Arizona"
