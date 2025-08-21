@@ -43,9 +43,13 @@ redirect_from:
   /* Make profile photo perfectly round */
   .author__avatar img {
     border-radius: 50% !important;
-    width: 200px !important;
-    height: 180px !important;
+    width: 150px !important;
+    height: 150px !important;
     object-fit: cover !important;
+    display: block !important;
+    margin: 0 auto !important;
+    border: 3px solid #fff !important;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.15) !important;
   }
 
 </style>
