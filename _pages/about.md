@@ -1,6 +1,7 @@
 ---
 permalink: /
 title: ""
+excerpt: "About me"
 author_profile: true
 redirect_from: 
   - /about/
@@ -42,8 +43,8 @@ redirect_from:
   /* Make profile photo perfectly round */
   .author__avatar img {
     border-radius: 50% !important;
-    width: 150px !important;
-    height: 150px !important;
+    width: 200px !important;
+    height: 200px !important;
     object-fit: cover !important;
   }
 
