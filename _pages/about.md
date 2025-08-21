@@ -39,6 +39,14 @@ redirect_from:
     margin: 14px 0; /* Adds spacing around the line */
   }
 
+  /* Make profile photo perfectly round */
+  .author__avatar img {
+    border-radius: 50% !important;
+    width: 150px !important;
+    height: 150px !important;
+    object-fit: cover !important;
+  }
+
 </style>
 
 <div style="border: 2px solid #4CAF50; border-radius: 8px; background-color: #F0F8FF; padding: 16px; margin: 16px 0; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
