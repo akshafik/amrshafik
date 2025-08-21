@@ -44,7 +44,7 @@ redirect_from:
   .author__avatar img {
     border-radius: 50% !important;
     width: 200px !important;
-    height: 150px !important;
+    height: 180px !important;
     object-fit: cover !important;
   }
 
