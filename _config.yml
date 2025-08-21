@@ -24,8 +24,8 @@ author:
   avatar           : "ashafik_profile.jpg"
   name             : "Amr Shafik"
   # pronouns         : "He/Him/His"  
-  bio              : "Ph.D., Transportation Research Engineer" # "Ph.D., Experienced in Traffic Flow Theory, Traffic Signal Control, and Connected and Automated Vehicles."
-  location         : "Tucson, AZ, Username"
+  bio              : "Ph.D., Transportation Research Engineer, University of Arizona." # "Ph.D., Experienced in Traffic Flow Theory, Traffic Signal Control, and Connected and Automated Vehicles."
+  location         : "Tucson, Arizona, USA"
   employer         : "University of Arizona"
   url              : "https://akshafik.github.io/amrshafik/"
   email            : "ashafik@arizona.edu" 
@@ -148,7 +148,7 @@ social:
 
 # Analytics
 analytics:
-  provider               :  "google-universal" # false (default), "google", "google-universal", "google-analytics-4", "custom"
+  provider               :  false # false (default), "google", "google-universal", "google-analytics-4", "custom"
   google:
     tracking_id          :
 
@@ -308,7 +308,7 @@ sass:
 permalink: /:categories/:title/
 # paginate: 5 # amount of posts to show
 # paginate_path: /page:num/
-timezone: MST # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: Etc/UTC # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
 # Plugins
