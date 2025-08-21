@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Home"
 title_separator          : "-"
 name                     : &name "Amr Shafik"
-description              : &description "personal description"
+description              : &description "Transportation Research Engineer specializing in traffic optimization, connected vehicles, and intelligent transportation systems"
 url                      : https://akshafik.github.io/amrshafik/ # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "akshafik/amrshafik"
@@ -75,7 +75,7 @@ social:
 analytics:
   provider               :  "google-universal" # false (default), "google", "google-universal", "custom"
   google:
-    tracking_id          :
+    tracking_id          :  "G-XXXXXXXXXX"  # Replace with your actual Google Analytics 4 tracking ID
 
 
 # Site Author
@@ -109,7 +109,7 @@ author:
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
-  twitter          : 
+  twitter          : "replacewithyourtwitterhandle"  # Add your Twitter handle if you have one 
   vine             :
   weibo            :
   xing             :

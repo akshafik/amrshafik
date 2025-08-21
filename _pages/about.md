@@ -64,12 +64,11 @@ redirect_from:
 ###### About Me
 
 <p align="justify">
-I hold a <b>Ph.D.</b> in Civil and Environmental Engineering from the <b>Virginia tech</b> (2025), co-advised by 
-<a href="https://www.vtti.vt.edu/staffdir/bio.php?&pn=111011" target="_blank">Prof. Hesham Rakha</a>. Check my <a href="https://vtechworks.lib.vt.edu/items/c6754865-f6b5-46e6-add6-c2dc6135343b" target="_blank">doctoral thesis</a>. Prior to that, I earned my <b>M.Sc. and B.Sc.</b> from the <b>Cairo University</b>, in my home country of Egypt.
+I hold a <b>Ph.D.</b> in Civil and Environmental Engineering from <b>Virginia Tech</b> (2025), co-advised by 
+<a href="https://www.vtti.vt.edu/staffdir/bio.php?&pn=111011" target="_blank">Prof. Hesham Rakha</a>. Check my <a href="https://vtechworks.lib.vt.edu/items/c6754865-f6b5-46e6-add6-c2dc6135343b" target="_blank">doctoral thesis</a>. Prior to that, I earned my <b>M.Sc. and B.Sc.</b> from <b>Cairo University</b> in my home country of Egypt.
 
-
-I am currently working as a **Transportation Research Engineer** in the Center of Applied Transportation Sciences (CATS) as well as the Arizona Transportation Institute (AZTI) at the University of Arizona. My research interests span a wide range of topics including traffic operations and transportation planning.
- </p>
+I am currently working as a <b>Transportation Research Engineer</b> in the Center of Applied Transportation Sciences (CATS) as well as the Arizona Transportation Institute (AZTI) at the University of Arizona. My research interests span a wide range of topics including traffic operations and transportation planning.
+</p>
 ---
 
 ### Research Interests

@@ -23,7 +23,7 @@ redirect_from:
 
 
 # Amr Shafik
-Tucson, AZ, 85719 | (540) 824-8325 | [Email](mailto:ashafik@arizona.edu)
+Tucson, AZ, 85704 | (540) 824-8325 | [Email](mailto:ashafik@arizona.edu)
 
 ---
 
