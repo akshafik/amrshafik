@@ -5,7 +5,15 @@ author_profile: true
 redirect_from: 
   - /research.html
 ---
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-GBET9CMKJT"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
+  gtag('config', 'G-GBET9CMKJT');
+</script>
 
 ## 1. Connected and Automated Vehicles (CAVs)
 
