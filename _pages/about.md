@@ -56,7 +56,7 @@ redirect_from:
     object-fit: cover !important;
     display: block !important;
     margin: 0 auto !important;
-    border: 3px solid #fff !important;
+    border: 1.5px solid #fff !important;
     box-shadow: 0 2px 8px rgba(0,0,0,0.15) !important;
   }
 
