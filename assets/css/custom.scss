@@ -1,4 +1,18 @@
 ---
 ---
 
-/* This file is now handled through _includes/head/custom.html for better consistency */
+/* Custom CSS for round profile photo across all pages */
+.author__avatar img {
+  border-radius: 50% !important;
+  width: 150px !important;
+  height: 150px !important;
+  object-fit: cover !important;
+  border: 3px solid #fff !important;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1) !important;
+}
+
+/* Optional: Add hover effect */
+.author__avatar img:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
+}

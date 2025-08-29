@@ -39,37 +39,3 @@
 @import "vendor/font-awesome/brands";
 @import "vendor/magnific-popup/magnific-popup";
 @import "print";
-
-/* Custom styles for round profile photo */
-.author__avatar img {
-  border-radius: 50% !important;
-  width: 150px !important;
-  height: 150px !important;
-  object-fit: cover !important;
-  display: block !important;
-  margin: 0 auto !important;
-  border: 3px solid #fff !important;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.15) !important;
-}
-
-/* Ensure consistent sizing across all breakpoints */
-@media screen and (max-width: 1023px) {
-  .author__avatar img {
-    width: 120px !important;
-    height: 120px !important;
-  }
-}
-
-@media screen and (max-width: 767px) {
-  .author__avatar img {
-    width: 100px !important;
-    height: 100px !important;
-  }
-}
-
-/* Optional hover effect */
-.author__avatar img:hover {
-  transform: scale(1.05) !important;
-  transition: transform 0.3s ease !important;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.2) !important;
-}

@@ -52,7 +52,7 @@ redirect_from:
   .author__avatar img {
     border-radius: 50% !important;
     width: 200px !important;
-    height: 200px !important;
+    height: 190px !important;
     object-fit: cover !important;
     display: block !important;
     margin: 0 auto !important;
