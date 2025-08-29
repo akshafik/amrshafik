@@ -14,7 +14,7 @@ description              : &description "Transportation Research Engineer specia
 url                      : https://akshafik.github.io/amrshafik # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "akshafik/amrshafik"
-teaser                   : "ashafik_hs.png" # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
+teaser                   : # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
 future                   : true
@@ -81,7 +81,7 @@ analytics:
 # Site Author
 author:
   name             : "Amr Shafik"
-  avatar           : "ashafik_hs.png"
+  avatar           : "ashafik_hs_grey.png"
   bio              : "Ph.D., Transportation Research Engineer"
   location         : "Tucson, AZ, USA"
   employer         : "University of Arizona"
