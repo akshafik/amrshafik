@@ -97,4 +97,4 @@ I am currently working as a <b>Research Scientist</b> in the Center of Applied T
 <!--{% include recent-publications.html %}-->
 
 <!-- Google Scholar Metrics Widget -->
-{% include google-scholar-widget.html %}
+<!--{% include google-scholar-widget.html %}-->
