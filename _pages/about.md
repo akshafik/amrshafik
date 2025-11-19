@@ -53,6 +53,12 @@ redirect_from:
 
 </style>
 
+<!-- Google Scholar Metrics Widget -->
+{% include google-scholar-widget.html %}
+
+<!-- Downloadable CV Button -->
+{% include cv-download-button.html %}
+
 <div style="border: 2px solid #4CAF50; border-radius: 8px; background-color: #F0F8FF; padding: 16px; margin: 16px 0; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
   <h3 style="text-align: center; color: #2E8B57; font-size: 1.5em; margin-top: 0;">
     🌟 Latest Highlight 🌟
@@ -85,3 +91,8 @@ I am currently working as a <b>Research Scientist</b> in the Center of Applied T
 - **Stochastic Optimization**  
 - **Connected and Automated Vehicles**  
 - **Vehicle Trajectory Optimization**
+
+---
+
+<!-- Recent Publications Highlight -->
+{% include recent-publications.html %}

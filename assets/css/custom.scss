@@ -187,3 +187,218 @@
   outline: 3px solid #4CAF50;
   outline-offset: 4px;
 }
+
+/* ==========================================================================
+   LOADING ANIMATIONS
+   ========================================================================== */
+
+/* Page loading animation */
+body {
+  animation: pageLoad 0.6s ease-out;
+}
+
+@keyframes pageLoad {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Content fade-in */
+.page__content > *,
+.archive__item,
+.sidebar {
+  animation: contentFadeIn 0.8s ease-out;
+  animation-fill-mode: both;
+}
+
+.page__content > *:nth-child(1) { animation-delay: 0.1s; }
+.page__content > *:nth-child(2) { animation-delay: 0.2s; }
+.page__content > *:nth-child(3) { animation-delay: 0.3s; }
+
+@keyframes contentFadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(15px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Loading spinner (optional - for future use) */
+.loading-spinner {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  border: 4px solid rgba(0, 0, 0, 0.1);
+  border-left-color: #4CAF50;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* ==========================================================================
+   STICKY NAVIGATION
+   ========================================================================== */
+
+.masthead {
+  position: sticky !important;
+  top: 0 !important;
+  z-index: 1000 !important;
+  background: white !important;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0) !important;
+  transition: all 0.3s ease !important;
+}
+
+.masthead.scrolled {
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1) !important;
+  background: rgba(255, 255, 255, 0.98) !important;
+  backdrop-filter: blur(10px) !important;
+}
+
+/* Adjust main content to account for sticky nav */
+#main {
+  padding-top: 1em;
+}
+
+/* ==========================================================================
+   EMAIL OBFUSCATION
+   ========================================================================== */
+
+/* Style for obfuscated email links */
+.email-link {
+  position: relative;
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+}
+
+.email-link:hover {
+  text-decoration: underline;
+}
+
+.email-link::before {
+  content: attr(data-email-user) "@" attr(data-email-domain);
+}
+
+/* Hide the actual email content */
+.email-link .email-text {
+  display: none;
+}
+
+/* Email protection notice */
+.email-protected::after {
+  content: " (click to reveal)";
+  font-size: 0.8em;
+  color: #999;
+  font-style: italic;
+}
+
+/* ==========================================================================
+   SMOOTH SCROLLING
+   ========================================================================== */
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* ==========================================================================
+   ENHANCED LINK HOVER EFFECTS
+   ========================================================================== */
+
+a {
+  position: relative;
+  transition: all 0.3s ease;
+}
+
+.page__content a:not(.btn):not(.btn-pub):not(.btn-view-all):not(.btn-download-cv) {
+  background: linear-gradient(to right, #4CAF50 0%, #4CAF50 100%);
+  background-size: 0 2px;
+  background-repeat: no-repeat;
+  background-position: left bottom;
+  transition: background-size 0.3s ease;
+}
+
+.page__content a:not(.btn):not(.btn-pub):not(.btn-view-all):not(.btn-download-cv):hover {
+  background-size: 100% 2px;
+}
+
+/* ==========================================================================
+   PRINT STYLES
+   ========================================================================== */
+
+@media print {
+  .back-to-top-btn,
+  .masthead,
+  .page__footer,
+  .sidebar,
+  .btn-download-cv,
+  .google-scholar-widget .scholar-link {
+    display: none !important;
+  }
+  
+  body {
+    font-size: 12pt;
+    line-height: 1.5;
+  }
+  
+  .page {
+    width: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+  
+  a[href]:after {
+    content: " (" attr(href) ")";
+    font-size: 0.8em;
+    color: #666;
+  }
+}
+
+/* ==========================================================================
+   ACCESSIBILITY - REDUCED MOTION
+   ========================================================================== */
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* ==========================================================================
+   PERFORMANCE OPTIMIZATIONS
+   ========================================================================== */
+
+/* Use hardware acceleration for animations */
+.author__avatar img,
+.archive__item-teaser,
+.back-to-top-btn,
+.btn-download-cv,
+.publication-card {
+  will-change: transform;
+  transform: translateZ(0);
+  backface-visibility: hidden;
+}
+
+/* Optimize font rendering */
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}

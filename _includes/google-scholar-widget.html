@@ -1,0 +1,128 @@
+<!-- Google Scholar Metrics Widget -->
+<div class="google-scholar-widget">
+  <h3 style="margin-bottom: 15px; color: #2E8B57;">
+    <i class="ai ai-google-scholar" style="font-size: 1.2em;"></i> Google Scholar Metrics
+  </h3>
+  
+  <div class="scholar-stats">
+    <div class="scholar-stat-item">
+      <div class="stat-number" id="citations-count">Loading...</div>
+      <div class="stat-label">Citations</div>
+    </div>
+    
+    <div class="scholar-stat-item">
+      <div class="stat-number" id="h-index">Loading...</div>
+      <div class="stat-label">h-index</div>
+    </div>
+    
+    <div class="scholar-stat-item">
+      <div class="stat-number" id="i10-index">Loading...</div>
+      <div class="stat-label">i10-index</div>
+    </div>
+  </div>
+  
+  <div class="scholar-link">
+    <a href="https://scholar.google.com/citations?user=MGBtdcAAAAAJ&hl=en" target="_blank" rel="noopener">
+      <i class="ai ai-google-scholar"></i> View Full Profile
+    </a>
+  </div>
+</div>
+
+<style>
+.google-scholar-widget {
+  background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+  border-radius: 12px;
+  padding: 20px;
+  margin: 20px 0;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.scholar-stats {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 20px 0;
+  gap: 15px;
+}
+
+.scholar-stat-item {
+  text-align: center;
+  background: white;
+  padding: 20px 30px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  flex: 1;
+  min-width: 120px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.scholar-stat-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+}
+
+.stat-number {
+  font-size: 2.5em;
+  font-weight: bold;
+  color: #4285F4;
+  margin-bottom: 5px;
+}
+
+.stat-label {
+  font-size: 0.9em;
+  color: #666;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.scholar-link {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.scholar-link a {
+  display: inline-block;
+  padding: 10px 25px;
+  background: #4285F4;
+  color: white !important;
+  border-radius: 25px;
+  text-decoration: none !important;
+  font-weight: 500;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 8px rgba(66, 133, 244, 0.3);
+}
+
+.scholar-link a:hover {
+  background: #357ae8;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(66, 133, 244, 0.4);
+}
+
+@media screen and (max-width: 640px) {
+  .scholar-stats {
+    flex-direction: column;
+  }
+  
+  .scholar-stat-item {
+    min-width: 100%;
+  }
+}
+</style>
+
+<script>
+// Note: Since Google Scholar doesn't provide an API, you'll need to manually update these values
+// or use a third-party service. For now, I've set up placeholder values that you can update.
+
+// Manual update - Replace these with your actual metrics
+const scholarMetrics = {
+  citations: '250+',  // Update with your citation count
+  hIndex: '9',        // Update with your h-index
+  i10Index: '8'       // Update with your i10-index
+};
+
+document.addEventListener('DOMContentLoaded', function() {
+  document.getElementById('citations-count').textContent = scholarMetrics.citations;
+  document.getElementById('h-index').textContent = scholarMetrics.hIndex;
+  document.getElementById('i10-index').textContent = scholarMetrics.i10Index;
+});
+</script>
