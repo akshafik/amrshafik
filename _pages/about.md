@@ -48,17 +48,8 @@ redirect_from:
     margin: 14px 0; /* Adds spacing around the line */
   }
 
-  /* Make profile photo perfectly round */
-  .author__avatar img {
-    border-radius: 50% !important;
-    width: 200px !important;
-    height: 190px !important;
-    object-fit: cover !important;
-    display: block !important;
-    margin: 0 auto !important;
-    border: 1.5px solid #fff !important;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.15) !important;
-  }
+  /* Profile photo styling - delegated to custom.scss for consistency */
+  /* Additional page-specific styling can be added here if needed */
 
 </style>
 
