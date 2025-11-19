@@ -15,7 +15,7 @@ author_profile: true
 </script>
 
 <!-- UA Calendar -->
-Times are in MST.
+<!--Times are in MST.-->
 
 <iframe src="https://outlook.office365.com/owa/calendar/16d035b83eb74526b7a3abc3f0366fc1@arizona.edu/abb6af9aff0b4cbf902fbeb446c7150511464990155237314594/calendar.html" style="border: 0" width="1000" height="600" frameborder="0" scrolling="yes"></iframe 
 

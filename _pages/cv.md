@@ -44,17 +44,19 @@ Dedicated researcher with a PhD in Civil and Environmental Engineering from Virg
 
 ## Work Experience
 
+**Arizona Transportation Institute (AZTI) – University of Arizona, Tucson, AZ**
+### Research Scientist  
+*November 2025 – Present*
 ### Research Engineer  
-**Arizona Transportation Institute (AZTI) – University of Arizona, Tucson, AZ**  
-*March 2025 – Present*  
-- Conduct advanced research in transportation modeling, traffic control, and intelligent transportation systems.  
-- Supervise and mentor graduate students.  
+*March 2025 – November 2025*  
+- Conduct research in transportation modeling, traffic control, and intelligent transportation systems.  
 - Project Manager for:  
   - Traffic Engineering Technical Support for the City of Yume, Arizona  
   - Inexperienced Driver Mitigation (ABOR-funded Project)  
-  - Coordinating Proposal Evaluation Committee meetings (Arizona DOT)  
-  - Research Program Management for AZTI  
-  - Funding development for the Center  
+- Coordinating Proposal Evaluation Committee meetings (Arizona DOT)  
+- Assisting in Research Program Management for AZTI
+- Supervise and mentor graduate students.
+- Funding development for the Center  
 
 ### Traffic Engineer (Intern)  
 **District Department of Transportation (DDOT), Washington, DC**  
