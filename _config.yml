@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Home"
 title_separator          : "-"
 name                     : &name "Amr Shafik"
-description              : &description "Transportation Research Engineer specializing in traffic optimization, connected vehicles, and intelligent transportation systems"
+description              : &description "Research Scientist specializing in traffic optimization, connected vehicles, and intelligent transportation systems"
 url                      : https://akshafik.github.io/amrshafik # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "akshafik/amrshafik"
@@ -82,7 +82,7 @@ analytics:
 author:
   name             : "Amr Shafik"
   avatar           : "ashafik_hs_grey.png"
-  bio              : "Ph.D., Transportation Research Engineer"
+  bio              : "Ph.D., Research Scientist"
   location         : "Tucson, AZ, USA"
   employer         : "University of Arizona"
   pubmed           : 
@@ -109,7 +109,7 @@ author:
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
-  twitter          : "replacewithyourtwitterhandle"  # Add your Twitter handle if you have one 
+  X                : "replacewithyourtwitterhandle"  # Add your Twitter handle if you have one 
   vine             :
   weibo            :
   xing             :
