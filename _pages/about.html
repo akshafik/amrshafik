@@ -49,6 +49,15 @@ redirect_from:
     margin: 14px 0; /* Adds spacing around the line */
   }
 
+  html {
+    scroll-behavior: smooth;
+  }
+
+  .section-block {
+    scroll-margin-top: 96px;
+    margin-top: 32px;
+  }
+
   /* Profile photo styling - delegated to custom.scss for consistency */
   /* Additional page-specific styling can be added here if needed */
 
@@ -129,24 +138,25 @@ redirect_from:
 </style>
 
 
-
-<div class="latest-highlight">
-  <div class="latest-highlight__header">
-    <span class="latest-highlight__icon" aria-hidden="true">
-      <img src="{{ '/images/uofa-logo.png' | relative_url }}" alt="">
-    </span>
-    <div>
-      <div class="latest-highlight__eyebrow">Latest Highlight</div>
-      <h3 class="latest-highlight__title">New role at the University of Arizona</h3>
+<section id="home" class="section-block">
+  <div class="latest-highlight">
+    <div class="latest-highlight__header">
+      <span class="latest-highlight__icon" aria-hidden="true">
+        <img src="{{ '/images/uofa-logo.png' | relative_url }}" alt="">
+      </span>
+      <div>
+        <div class="latest-highlight__eyebrow">Latest Highlight</div>
+        <h3 class="latest-highlight__title">New role at the University of Arizona</h3>
+      </div>
     </div>
+    <p class="latest-highlight__copy">
+      In <span class="latest-highlight__date">November 2025</span>, I was promoted to <b>Research Scientist III</b>, continuing my work with the Arizona Transportation Institute (AZTI) and the Center of Applied Transportation Sciences (CATS)
+       at the <b>University of Arizona</b>.
+    </p>
   </div>
-  <p class="latest-highlight__copy">
-    In <span class="latest-highlight__date">November 2025</span>, I was promoted to <b>Research Scientist III</b>, continuing my work with the Arizona Transportation Institute (AZTI) and the Center of Applied Transportation Sciences (CATS)
-     at the <b>University of Arizona</b>.
-  </p>
-</div>
+</section>
 
-  University of Arizona.
+<section id="about" class="section-block">
 ###### About Me
 
 <p align="justify">
@@ -155,8 +165,9 @@ I hold a <b>Ph.D.</b> in Civil and Environmental Engineering from <b>Virginia Te
 
 I am currently working as a <b>Research Scientist</b> in the Center of Applied Transportation Sciences (CATS) as well as the Arizona Transportation Institute (AZTI) at the University of Arizona. My research interests span a wide range of topics including traffic operations and transportation planning.
 </p>
----
+</section>
 
+<section id="research" class="section-block">
 ### Research Interests
 
 - **Traffic Flow Theory**  
@@ -172,5 +183,38 @@ I am currently working as a <b>Research Scientist</b> in the Center of Applied T
 ---
 <!-- Downloadable CV Button -->
 {% include cv-download-button.html %}
+</section>
+
+<section id="projects" class="section-block">
+  <h2>Projects</h2>
+  {% assign projects_page = site.pages | where: "permalink", "/projects/" | first %}
+  {% if projects_page %}
+    {{ projects_page.content }}
+  {% endif %}
+</section>
+
+<section id="publications" class="section-block">
+  <h2>Publications</h2>
+  {% assign publications_page = site.pages | where: "permalink", "/publications/" | first %}
+  {% if publications_page %}
+    {{ publications_page.content }}
+  {% endif %}
+</section>
+
+<section id="teaching" class="section-block">
+  <h2>Teaching</h2>
+  {% assign teaching_page = site.pages | where: "permalink", "/teaching/" | first %}
+  {% if teaching_page %}
+    {{ teaching_page.content }}
+  {% endif %}
+</section>
+
+<section id="calendar" class="section-block">
+  <h2>Calendar</h2>
+  {% assign calendar_page = site.pages | where: "permalink", "/calendar/" | first %}
+  {% if calendar_page %}
+    {{ calendar_page.content }}
+  {% endif %}
+</section>
 {% endcapture %}
 {{ markdown_content | markdownify }}
