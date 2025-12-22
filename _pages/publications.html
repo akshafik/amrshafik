@@ -5,11 +5,92 @@ permalink: /publications/
 author_profile: true
 ---
 
-{% if site.author.googlescholar %}
-  <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
-{% endif %}
+<style>
+  .pub-page {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 16px 0 32px;
+  }
+
+  .pub-hero {
+    margin: 8px 0 24px;
+    padding: 18px 20px;
+    border-radius: 14px;
+    background: linear-gradient(135deg, #f6fbff 0%, #eef7f1 100%);
+    border: 1px solid #d8e8f3;
+    box-shadow: 0 12px 28px rgba(0, 0, 0, 0.06);
+  }
+
+  .pub-hero h2 {
+    margin: 0 0 6px;
+    color: #10344f;
+    font-size: 1.4em;
+  }
+
+  .pub-hero p {
+    margin: 0;
+    color: #1c2f3c;
+    font-size: 1em;
+  }
+
+  .pub-hero a {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    margin-top: 12px;
+    padding: 8px 12px;
+    border-radius: 10px;
+    background: #16558f;
+    color: #fff;
+    font-weight: 600;
+    text-decoration: none;
+    box-shadow: 0 8px 20px rgba(22, 85, 143, 0.3);
+  }
+
+  .pub-hero a:hover {
+    background: #0f3e6a;
+  }
+
+  .pub-section-title {
+    display: inline-block;
+    margin: 28px 0 12px;
+    padding-bottom: 6px;
+    border-bottom: 2px solid #16558f;
+    color: #0f2a3f;
+  }
+
+  .pub-list {
+    display: grid;
+    gap: 14px;
+  }
+
+  .pub-list article {
+    padding: 12px 14px;
+    border-radius: 12px;
+    border: 1px solid #e3ebf2;
+    background: #fff;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.04);
+  }
+
+  .pub-list h3 {
+    margin: 0 0 6px;
+  }
+
+  .pub-list p {
+    margin: 0;
+  }
+</style>
 
 {% include base_path %}
+
+<div class="pub-page">
+  <div class="pub-hero">
+    <h2>Selected Publications</h2>
+    <p>Peer-reviewed articles and conference papers focused on transportation systems, traffic operations, and intelligent mobility.</p>
+    {% if site.author.googlescholar %}
+      <a href="{{site.author.googlescholar}}" target="_blank" rel="noopener">View on Google Scholar →</a>
+    {% endif %}
+  </div>
 
 <!-- New style rendering if publication categories are defined -->
 {% if site.publication_category %}
@@ -20,17 +101,23 @@ author_profile: true
         {% continue %}
       {% endif %}
       {% unless title_shown %}
-        <h2>{{ category[1].title }}</h2><hr />
+        <h2 class="pub-section-title">{{ category[1].title }}</h2>
+        <div class="pub-list">
         {% assign title_shown = true %}
       {% endunless %}
       {% include archive-single.html %}
     {% endfor %}
+    {% if title_shown %}
+      </div>
+    {% endif %}
   {% endfor %}
 {% else %}
-  {% for post in site.publications reversed %}
-    {% include archive-single.html %}
-  {% endfor %}
+  <div class="pub-list">
+    {% for post in site.publications reversed %}
+      {% include archive-single.html %}
+    {% endfor %}
+  </div>
 {% endif %}
 
-
+</div>
 
