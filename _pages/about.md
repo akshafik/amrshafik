@@ -7,7 +7,6 @@ redirect_from:
   - /about/
   - /about.html
 ---
-{% capture markdown_content %}
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-GBET9CMKJT"></script>
 <script>
@@ -206,7 +205,7 @@ I am currently working as a <b>Research Scientist</b> in the Center of Applied T
 
 <section id="teaching" class="section-block">
   <h2>Teaching</h2>
-  {% if site.teaching %}
+{% if site.teaching %}
     <div class="archive__item-list">
       {% for post in site.teaching reversed %}
         {% include archive-single.html %}
@@ -214,6 +213,3 @@ I am currently working as a <b>Research Scientist</b> in the Center of Applied T
     </div>
   {% endif %}
 </section>
-
-{% endcapture %}
-{{ markdown_content | markdownify }}
