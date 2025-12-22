@@ -209,12 +209,5 @@ I am currently working as a <b>Research Scientist</b> in the Center of Applied T
   {% endif %}
 </section>
 
-<section id="calendar" class="section-block">
-  <h2>Calendar</h2>
-  {% assign calendar_page = site.pages | where: "permalink", "/calendar/" | first %}
-  {% if calendar_page %}
-    {{ calendar_page.content }}
-  {% endif %}
-</section>
 {% endcapture %}
 {{ markdown_content | markdownify }}
