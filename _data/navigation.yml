@@ -23,8 +23,8 @@ main:
   - title: "Teaching"
     url: /#teaching    
       
-  - title: "Calendar"
-    url: /#calendar
+  # - title: "Calendar"
+  #   url: /#calendar
 
   # - title: "Portfolio"
   #   url: /portfolio/
