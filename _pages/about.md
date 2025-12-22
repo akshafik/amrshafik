@@ -57,7 +57,7 @@ redirect_from:
     padding: 20px;
     border-radius: 14px;
     border: 1px solid #b7e7d2;
-    background: linear-gradient(135deg, #f3fff8 0%, #eaf6ff 100%);
+    background: linear-gradient(135deg, #fff6f3ff 0%, #eaf6ffff 100%);
     box-shadow: 0 10px 28px rgba(0, 0, 0, 0.12);
   }
 
