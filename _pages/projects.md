@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Research Projects"
+title: "Projects"
 permalink: /projects/
 author_profile: true
 ---
@@ -10,25 +10,28 @@ author_profile: true
     max-width: 980px;
     margin: 0 auto;
     padding: 12px 0 32px;
+    font-family: "Helvetica Neue", Arial, sans-serif;
   }
 
   .projects-hero {
     padding: 18px 20px;
     border-radius: 14px;
-    background: linear-gradient(135deg, #f6fbff 0%, #eef7f1 100%);
-    border: 1px solid #d8e8f3;
-    box-shadow: 0 12px 28px rgba(0, 0, 0, 0.06);
+    background: linear-gradient(135deg, #f4f8ff 0%, #e8f0ff 100%);
+    border: 1px solid #c8d8f0;
+    box-shadow: 0 12px 28px rgba(9, 34, 68, 0.12);
     margin-bottom: 20px;
   }
 
   .projects-hero h2 {
     margin: 0 0 6px;
-    color: #10344f;
+    color: #0f2f63;
+    font-size: 1.35em;
   }
 
   .projects-hero p {
     margin: 0;
-    color: #1c2f3c;
+    color: #10253b;
+    font-size: 1em;
   }
 
   .projects-section {
@@ -37,28 +40,32 @@ author_profile: true
 
   .projects-section h3 {
     margin: 0 0 10px;
-    color: #0f2a3f;
-    border-bottom: 2px solid #16558f;
+    color: #0f2f63;
+    border-bottom: 2px solid #1f5aa8;
     display: inline-block;
     padding-bottom: 4px;
+    font-size: 1.05em;
   }
 
   .project-card {
     padding: 14px 16px;
     margin: 12px 0;
     border-radius: 12px;
-    border: 1px solid #e3ebf2;
-    background: #fff;
-    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.04);
+    border: 1px solid #d5e2f5;
+    background: #ffffff;
+    box-shadow: 0 10px 24px rgba(9, 34, 68, 0.06);
   }
 
   .project-card h4 {
     margin: 0 0 6px;
+    color: #0f2f63;
+    font-size: 1.02em;
   }
 
   .project-card p {
     margin: 0;
-    color: #1b2a32;
+    color: #10253b;
+    font-size: 0.98em;
   }
 </style>
 
