@@ -56,9 +56,10 @@ redirect_from:
     margin: 24px 0;
     padding: 20px;
     border-radius: 14px;
-    border: 1px solid #b7e7d2;
-    background: linear-gradient(135deg, #fff6f3ff 0%, #eaf6ffff 100%);
-    box-shadow: 0 10px 28px rgba(0, 0, 0, 0.12);
+    border: 1px solid #c8d8f0;
+    background: linear-gradient(135deg, #f4f8ff 0%, #e8f0ff 100%);
+    box-shadow: 0 10px 28px rgba(9, 34, 68, 0.12);
+    font-family: "Helvetica Neue", Arial, sans-serif;
   }
 
   .latest-highlight::after {
@@ -66,7 +67,7 @@ redirect_from:
     position: absolute;
     inset: 0;
     border-radius: 14px;
-    background: radial-gradient(circle at 20% 20%, rgba(76, 175, 80, 0.15), transparent 40%), radial-gradient(circle at 80% 10%, rgba(46, 125, 50, 0.12), transparent 35%);
+    background: radial-gradient(circle at 20% 20%, rgba(31, 90, 168, 0.12), transparent 40%), radial-gradient(circle at 80% 10%, rgba(15, 47, 99, 0.08), transparent 35%);
     pointer-events: none;
   }
 
@@ -84,23 +85,23 @@ redirect_from:
     width: 48px;
     height: 48px;
     border-radius: 12px;
-    background: #1e8b65;
+    background: #1f5aa8;
     color: #fff;
     font-size: 1.4em;
-    box-shadow: 0 8px 20px rgba(30, 139, 101, 0.35);
+    box-shadow: 0 8px 20px rgba(31, 90, 168, 0.3);
   }
 
   .latest-highlight__eyebrow {
     text-transform: uppercase;
     font-size: 0.75em;
     letter-spacing: 0.08em;
-    color: #1e8b65;
+    color: #1f5aa8;
     font-weight: 700;
   }
 
   .latest-highlight__title {
     margin: 2px 0 0;
-    color: #0f5132;
+    color: #0f2f63;
     font-size: 1.3em;
     font-weight: 700;
   }
@@ -108,12 +109,12 @@ redirect_from:
   .latest-highlight__copy {
     margin: 0;
     font-size: 1.05em;
-    color: #1b2a32;
+    color: #10253b;
     text-align: justify;
   }
 
   .latest-highlight__date {
-    color: #1e8b65;
+    color: #1f5aa8;
     font-weight: 800;
   }
 
