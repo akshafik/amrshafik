@@ -5,6 +5,7 @@ sitemap: false
 permalink: /404.html
 ---
 
+{% capture markdown_content %}
 Sorry, but the page you were trying to view does not exist --- perhaps you can try searching for it below.
 
 <script type="text/javascript">
@@ -14,3 +15,5 @@ Sorry, but the page you were trying to view does not exist --- perhaps you can t
 <script type="text/javascript"
   src="//linkhelp.clients.google.com/tbproxy/lh/wm/fixurl.js">
 </script>
+{% endcapture %}
+{{ markdown_content | markdownify }}

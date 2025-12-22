@@ -5,6 +5,7 @@ author_profile: true
 redirect_from: 
   - /research.html
 ---
+{% capture markdown_content %}
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-GBET9CMKJT"></script>
 <script>
@@ -67,3 +68,5 @@ I apply stochastic optimization methods to tackle uncertainty in traffic systems
 
 ## Vision
 My research aims to bridge the gap between vehicle and infrastructure optimization. By combining advanced modeling, machine learning, and optimization techniques, I strive to develop **sustainable, efficient, and intelligent transportation systems** that address real-world challenges in mobility.
+{% endcapture %}
+{{ markdown_content | markdownify }}

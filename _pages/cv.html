@@ -6,6 +6,7 @@ author_profile: true
 redirect_from:
   - /resume
 ---
+{% capture markdown_content %}
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-GBET9CMKJT"></script>
 <script>
@@ -148,4 +149,5 @@ Teaching
 
 ## References
 Available upon request.
-
+{% endcapture %}
+{{ markdown_content | markdownify }}
