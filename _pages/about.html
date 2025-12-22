@@ -83,13 +83,19 @@ redirect_from:
     display: inline-flex;
     align-items: center;
     justify-content: center;
+    width: 56px;
+    height: 56px;
+    border-radius: 14px;
+    background: #0c234b;
+    border: 1px solid #0c234b;
+    box-shadow: 0 8px 20px rgba(12, 35, 75, 0.3);
+    overflow: hidden;
+  }
+
+  .latest-highlight__icon svg {
     width: 48px;
     height: 48px;
-    border-radius: 12px;
-    background: #1f5aa8;
-    color: #fff;
-    font-size: 1.4em;
-    box-shadow: 0 8px 20px rgba(31, 90, 168, 0.3);
+    display: block;
   }
 
   .latest-highlight__eyebrow {
@@ -125,7 +131,14 @@ redirect_from:
 
 <div class="latest-highlight">
   <div class="latest-highlight__header">
-    <span class="latest-highlight__icon">✨</span>
+    <span class="latest-highlight__icon" aria-hidden="true">
+      <svg viewBox="0 0 80 80" role="presentation">
+        <rect width="80" height="80" fill="#0c234b"/>
+        <path d="M20 62 L32 18 H48 L60 62 H51 L49 54 H31 L29 62 Z" fill="#ffffff"/>
+        <path d="M35 30 L32 42 H48 L45 30 Z" fill="#ab0520"/>
+        <path d="M33 44 L48 44 L49 48 L32 48 Z" fill="#0c234b"/>
+      </svg>
+    </span>
     <div>
       <div class="latest-highlight__eyebrow">Latest Highlight</div>
       <h3 class="latest-highlight__title">New role at the University of Arizona</h3>
