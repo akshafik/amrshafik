@@ -7,15 +7,15 @@ author_profile: true
 
 <style>
   .pub-page {
-    max-width: 960px;
+    max-width: 1120px;
     margin: 0 auto;
-    padding: 16px 0 32px;
+    padding: 12px 12px 32px;
     font-family: "Helvetica Neue", Arial, sans-serif;
   }
 
   .pub-hero {
-    margin: 8px 0 24px;
-    padding: 18px 20px;
+    margin: 8px 0 20px;
+    padding: 16px 18px;
     border-radius: 14px;
     background: linear-gradient(135deg, #f4f8ff 0%, #e8f0ff 100%);
     border: 1px solid #c8d8f0;
@@ -54,7 +54,7 @@ author_profile: true
 
   .pub-section-title {
     display: inline-block;
-    margin: 28px 0 12px;
+    margin: 22px 0 12px;
     padding-bottom: 6px;
     border-bottom: 2px solid #1f5aa8;
     color: #0f2f63;
@@ -63,10 +63,13 @@ author_profile: true
 
   .pub-list {
     display: grid;
-    gap: 14px;
+    gap: 12px;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    align-items: stretch;
   }
 
   .pub-list article {
+    height: 100%;
     padding: 12px 14px;
     border-radius: 12px;
     border: 1px solid #d5e2f5;
@@ -84,6 +87,16 @@ author_profile: true
     margin: 0;
     color: #10253b;
     font-size: 0.98em;
+  }
+
+  @media (max-width: 720px) {
+    .pub-page {
+      padding: 12px 8px 28px;
+    }
+
+    .pub-list {
+      grid-template-columns: 1fr;
+    }
   }
 </style>
 
