@@ -65,7 +65,7 @@ author_profile: true
 <div class="projects-wrapper">
   <div class="projects-hero">
     <h2>Applied research advancing safer, cleaner mobility</h2>
-    <p>A curated set of ongoing and past projects drawn from my CV, spanning connected vehicle optimization, micromobility planning, traffic engineering, and transportation demand modeling.</p>
+    <p>A curated set of ongoing and past projects spanning connected vehicle optimization, micromobility planning, traffic engineering, and transportation demand modeling.</p>
   </div>
 
   <div class="projects-section">
