@@ -195,17 +195,23 @@ I am currently working as a <b>Research Scientist</b> in the Center of Applied T
 
 <section id="publications" class="section-block">
   <h2>Publications</h2>
-  {% assign publications_page = site.pages | where: "permalink", "/publications/" | first %}
-  {% if publications_page %}
-    {{ publications_page.content }}
+  {% if site.publications %}
+    <div class="archive__item-list">
+      {% for post in site.publications reversed %}
+        {% include archive-single.html %}
+      {% endfor %}
+    </div>
   {% endif %}
 </section>
 
 <section id="teaching" class="section-block">
   <h2>Teaching</h2>
-  {% assign teaching_page = site.pages | where: "permalink", "/teaching/" | first %}
-  {% if teaching_page %}
-    {{ teaching_page.content }}
+  {% if site.teaching %}
+    <div class="archive__item-list">
+      {% for post in site.teaching reversed %}
+        {% include archive-single.html %}
+      {% endfor %}
+    </div>
   {% endif %}
 </section>
 
