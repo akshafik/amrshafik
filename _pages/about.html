@@ -92,9 +92,10 @@ redirect_from:
     overflow: hidden;
   }
 
-  .latest-highlight__icon svg {
-    width: 48px;
-    height: 48px;
+  .latest-highlight__icon img {
+    width: 52px;
+    height: 52px;
+    object-fit: contain;
     display: block;
   }
 
@@ -132,12 +133,7 @@ redirect_from:
 <div class="latest-highlight">
   <div class="latest-highlight__header">
     <span class="latest-highlight__icon" aria-hidden="true">
-      <svg viewBox="0 0 80 80" role="presentation">
-        <rect width="80" height="80" fill="#0c234b"/>
-        <path d="M20 62 L32 18 H48 L60 62 H51 L49 54 H31 L29 62 Z" fill="#ffffff"/>
-        <path d="M35 30 L32 42 H48 L45 30 Z" fill="#ab0520"/>
-        <path d="M33 44 L48 44 L49 48 L32 48 Z" fill="#0c234b"/>
-      </svg>
+      <img src="{{ '/images/uofa-logo.png' | relative_url }}" alt="">
     </span>
     <div>
       <div class="latest-highlight__eyebrow">Latest Highlight</div>
