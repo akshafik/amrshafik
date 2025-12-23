@@ -6,35 +6,35 @@ author_profile: true
 ---
 
 <style>
-  .pub-page {
-    max-width: 1120px;
+  .projects-wrapper {
+    max-width: 980px;
     margin: 0 auto;
-    padding: 12px 12px 32px;
+    padding: 12px 0 32px;
     font-family: "Helvetica Neue", Arial, sans-serif;
   }
 
-  .pub-hero {
-    margin: 8px 0 20px;
-    padding: 16px 18px;
+  .projects-hero {
+    padding: 18px 20px;
     border-radius: 14px;
     background: linear-gradient(135deg, #f4f8ff 0%, #e8f0ff 100%);
     border: 1px solid #c8d8f0;
     box-shadow: 0 12px 28px rgba(9, 34, 68, 0.12);
+    margin-bottom: 20px;
   }
 
-  .pub-hero h2 {
+  .projects-hero h2 {
     margin: 0 0 6px;
     color: #0f2f63;
     font-size: 1.35em;
   }
 
-  .pub-hero p {
+  .projects-hero p {
     margin: 0;
     color: #10253b;
     font-size: 1em;
   }
 
-  .pub-hero a {
+  .projects-hero a {
     display: inline-flex;
     align-items: center;
     gap: 6px;
@@ -48,29 +48,30 @@ author_profile: true
     box-shadow: 0 8px 20px rgba(31, 90, 168, 0.28);
   }
 
-  .pub-hero a:hover {
+  .projects-hero a:hover {
     background: #17457f;
   }
 
-  .pub-section-title {
-    display: inline-block;
-    margin: 22px 0 12px;
-    padding-bottom: 6px;
-    border-bottom: 2px solid #1f5aa8;
+  .projects-section {
+    margin-top: 24px;
+  }
+
+  .projects-section h3 {
+    margin: 0 0 10px;
     color: #0f2f63;
+    border-bottom: 2px solid #1f5aa8;
+    display: inline-block;
+    padding-bottom: 4px;
     font-size: 1.05em;
   }
 
   .pub-list {
-    display: grid;
-    gap: 12px;
-    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-    align-items: stretch;
+    margin-top: 12px;
   }
 
-  .pub-list article {
-    height: 100%;
-    padding: 12px 14px;
+  .pub-list .list__item {
+    padding: 14px 16px;
+    margin: 12px 0;
     border-radius: 12px;
     border: 1px solid #d5e2f5;
     background: #fff;
@@ -88,22 +89,12 @@ author_profile: true
     color: #10253b;
     font-size: 0.98em;
   }
-
-  @media (max-width: 720px) {
-    .pub-page {
-      padding: 12px 8px 28px;
-    }
-
-    .pub-list {
-      grid-template-columns: 1fr;
-    }
-  }
 </style>
 
 {% include base_path %}
 
-<div class="pub-page">
-  <div class="pub-hero">
+<div class="projects-wrapper">
+  <div class="projects-hero">
     <h2>Selected Publications</h2>
     <p>Peer-reviewed articles and conference papers focused on transportation systems, traffic operations, and intelligent mobility.</p>
     {% if site.author.googlescholar %}
@@ -120,21 +111,26 @@ author_profile: true
         {% continue %}
       {% endif %}
       {% unless title_shown %}
-        <h2 class="pub-section-title">{{ category[1].title }}</h2>
-        <div class="pub-list">
+        <div class="projects-section">
+          <h3>{{ category[1].title }}</h3>
+          <div class="pub-list">
         {% assign title_shown = true %}
       {% endunless %}
       {% include archive-single.html %}
     {% endfor %}
     {% if title_shown %}
+          </div>
       </div>
     {% endif %}
   {% endfor %}
 {% else %}
-  <div class="pub-list">
-    {% for post in site.publications reversed %}
-      {% include archive-single.html %}
-    {% endfor %}
+  <div class="projects-section">
+    <h3>Publications</h3>
+    <div class="pub-list">
+      {% for post in site.publications reversed %}
+        {% include archive-single.html %}
+      {% endfor %}
+    </div>
   </div>
 {% endif %}
 
