@@ -6,50 +6,54 @@ author_profile: true
 ---
 
 <style>
-  .teaching-page {
-    max-width: 960px;
+  .projects-wrapper {
+    max-width: 980px;
     margin: 0 auto;
-    padding: 16px 0 32px;
+    padding: 12px 0 32px;
     font-family: "Helvetica Neue", Arial, sans-serif;
   }
 
-  .teaching-hero {
-    margin: 8px 0 24px;
+  .projects-hero {
     padding: 18px 20px;
     border-radius: 14px;
     background: linear-gradient(135deg, #f4f8ff 0%, #e8f0ff 100%);
     border: 1px solid #c8d8f0;
     box-shadow: 0 12px 28px rgba(9, 34, 68, 0.12);
+    margin-bottom: 20px;
   }
 
-  .teaching-hero h2 {
+  .projects-hero h2 {
     margin: 0 0 6px;
     color: #0f2f63;
     font-size: 1.35em;
   }
 
-  .teaching-hero p {
+  .projects-hero p {
     margin: 0;
     color: #10253b;
     font-size: 1em;
   }
 
-  .teaching-section-title {
-    display: inline-block;
-    margin: 28px 0 12px;
-    padding-bottom: 6px;
-    border-bottom: 2px solid #1f5aa8;
+  .projects-section {
+    margin-top: 24px;
+  }
+
+  .projects-section h3 {
+    margin: 0 0 10px;
     color: #0f2f63;
+    border-bottom: 2px solid #1f5aa8;
+    display: inline-block;
+    padding-bottom: 4px;
     font-size: 1.05em;
   }
 
   .teaching-list {
-    display: grid;
-    gap: 14px;
+    margin-top: 12px;
   }
 
-  .teaching-list article {
-    padding: 12px 14px;
+  .teaching-list .list__item {
+    padding: 14px 16px;
+    margin: 12px 0;
     border-radius: 12px;
     border: 1px solid #d5e2f5;
     background: #fff;
@@ -71,16 +75,18 @@ author_profile: true
 
 {% include base_path %}
 
-<div class="teaching-page">
-  <div class="teaching-hero">
+<div class="projects-wrapper">
+  <div class="projects-hero">
     <h2>Courses and instructional roles</h2>
     <p>Graduate and undergraduate teaching focused on transportation systems, simulation, and applied engineering practice.</p>
   </div>
 
-  <h2 class="teaching-section-title">Teaching Portfolio</h2>
-  <div class="teaching-list">
-    {% for post in site.teaching reversed %}
-      {% include archive-single.html %}
-    {% endfor %}
+  <div class="projects-section">
+    <h3>Teaching Portfolio</h3>
+    <div class="teaching-list">
+      {% for post in site.teaching reversed %}
+        {% include archive-single.html %}
+      {% endfor %}
+    </div>
   </div>
 </div>
