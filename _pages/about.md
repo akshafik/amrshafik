@@ -145,12 +145,11 @@ redirect_from:
       </span>
       <div>
         <div class="latest-highlight__eyebrow">Latest Highlight</div>
-        <h3 class="latest-highlight__title">New role at the University of Arizona</h3>
+        <h3 class="latest-highlight__title">Passed the P.E. Exam</h3>
       </div>
     </div>
     <p class="latest-highlight__copy">
-      In <span class="latest-highlight__date">November 2025</span>, I was promoted to <b>Research Scientist III</b>, continuing my work with the Arizona Transportation Institute (AZTI) and the Center of Applied Transportation Sciences (CATS)
-       at the <b>University of Arizona</b>.
+      I have passed the <b>Principles and Practice of Engineering (P.E.) exam</b>, marking an important professional milestone in my civil engineering and transportation career.
     </p>
   </div>
 </section>
@@ -160,7 +159,7 @@ redirect_from:
 
 <p align="justify">
 I hold a <b>Ph.D.</b> in Civil and Environmental Engineering from <b>Virginia Tech</b> (2025), advised by 
-<a href="https://www.vtti.vt.edu/staffdir/bio.php?&pn=111011" target="_blank">Prof. Hesham Rakha</a> (check my <a href="https://vtechworks.lib.vt.edu/items/c6754865-f6b5-46e6-add6-c2dc6135343b" target="_blank">doctoral thesis</a>). Prior to that, I earned my <b>M.Sc. and B.Sc.</b> from <b>Cairo University</b> in my home country of Egypt.
+<a href="https://www.vtti.vt.edu/staffdir/bio.php?&pn=111011" target="_blank">Prof. Hesham Rakha</a> (check my <a href="https://vtechworks.lib.vt.edu/items/c6754865-f6b5-46e6-add6-c2dc6135343b" target="_blank">doctoral thesis</a>). I have also passed the <b>Principles and Practice of Engineering (P.E.) exam</b>. Prior to that, I earned my <b>M.Sc. and B.Sc.</b> from <b>Cairo University</b> in my home country of Egypt.
 
 I am currently working as a <b>Research Scientist</b> in the Center of Applied Transportation Sciences (CATS) as well as the Arizona Transportation Institute (AZTI) at the University of Arizona. My research interests span a wide range of topics including traffic operations and transportation planning.
 </p>
