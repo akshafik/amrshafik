@@ -5,6 +5,7 @@ category: manuscripts
 permalink: /publication/2023-optimization-of-vehicle-trajectories-considering-uncertainty-in-actu
 excerpt: "Optimization of vehicle trajectories considering uncertainty in actuated traffic signal timings — AK Shafik, S Eteifa, HA Rakha. IEEE Transactions on Intelligent Transportation Systems 24 (7), 7259-7269, 2023. Cited by 35 on Google Scholar."
 date: 2023-01-01
+scholar_citations: "35"
 venue: "IEEE Transactions on Intelligent Transportation Systems 24 (7), 7259-7269, 2023"
 paperurl: "https://ieeexplore.ieee.org/abstract/document/10073959"
 citation: "AK Shafik, S Eteifa, HA Rakha, \"Optimization of vehicle trajectories considering uncertainty in actuated traffic signal timings,\" IEEE Transactions on Intelligent Transportation Systems 24 (7), 7259-7269, 2023."

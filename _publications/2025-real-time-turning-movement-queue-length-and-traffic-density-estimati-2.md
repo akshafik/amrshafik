@@ -5,6 +5,7 @@ category: manuscripts
 permalink: /publication/2025-real-time-turning-movement-queue-length-and-traffic-density-estimati-2
 excerpt: "Real-Time Turning Movement, Queue Length and Traffic Density Estimation and Prediction from Probe Vehicle Data: A Kalman Filter Approach — A Shafik, HA Rakha. Preprints, 2025."
 date: 2025-01-01
+scholar_citations: "Not listed"
 venue: "Preprints, 2025"
 paperurl: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=64155c0AAAAJ&pagesize=100&citation_for_view=64155c0AAAAJ:eQOLeE2rZwMC"
 citation: "A Shafik, HA Rakha, \"Real-Time Turning Movement, Queue Length and Traffic Density Estimation and Prediction from Probe Vehicle Data: A Kalman Filter Approach,\" Preprints, 2025."
