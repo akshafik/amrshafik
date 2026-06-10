@@ -554,3 +554,55 @@ body {
     width: 100%;
   }
 }
+
+/* Make the homepage publications list use the full horizontal content area. */
+#publications .archive__item-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
+  gap: 1rem;
+  align-items: stretch;
+  width: 100%;
+}
+
+#publications .list__item {
+  width: 100% !important;
+  padding-right: 0 !important;
+  margin: 0 !important;
+}
+
+#publications .archive__item.publication-entry {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+#publications .archive__item.publication-entry .archive__item-title {
+  font-size: 0.98rem;
+}
+
+#publications .archive__item.publication-entry .archive__item-excerpt {
+  flex: 1 1 auto;
+}
+
+/* Keep the homepage list scannable; the full citation remains on each Details page. */
+#publications .publication-citation {
+  display: none;
+}
+
+#publications .publication-actions {
+  margin-top: auto;
+  padding-top: 0.5rem;
+}
+
+@media screen and (min-width: 1180px) {
+  #publications .archive__item-list {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media screen and (max-width: 760px) {
+  #publications .archive__item-list {
+    grid-template-columns: 1fr;
+  }
+}
