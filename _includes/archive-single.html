@@ -62,7 +62,6 @@
         {% if post.paperurl %}<a class="publication-button publication-button-primary" href="{{ post.paperurl }}" target="_blank" rel="noopener">View publication</a>{% endif %}
         <a class="publication-button" href="{{ base_path }}{{ post.url }}" rel="permalink">Details</a>
       </div>
-      {% if post.citation %}<p class="publication-citation"><strong>Recommended citation:</strong> {{ post.citation }}</p>{% endif %}
     {% else %}
       {% if post.citation and post.paperurl and post.slidesurl %}
         <p>Recommended citation: {{ post.citation }}<br /><a href="{{ post.paperurl }}">Download Paper</a> | <a href="{{ post.slidesurl }}">Download Slides</a></p>
