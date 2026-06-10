@@ -463,8 +463,9 @@ body {
 }
 
 .publication-year-badge {
-  color: #ffffff;
-  background: #0f2f63;
+  color: #0f2f63;
+  background: #dceafe;
+  border: 1px solid #aac3e8;
 }
 
 .publication-type-badge {
@@ -521,14 +522,15 @@ body {
 }
 
 .publication-button-primary {
-  color: #ffffff !important;
-  background: #1f5aa8;
-  border-color: #1f5aa8;
+  color: #0f2f63 !important;
+  background: #dceafe;
+  border-color: #aac3e8;
 }
 
 .publication-button-primary:hover {
-  background: #0f2f63;
-  border-color: #0f2f63;
+  color: #0f2f63 !important;
+  background: #c9ddfb;
+  border-color: #8eb0db;
 }
 
 .publication-citation {
@@ -555,34 +557,30 @@ body {
   }
 }
 
-/* Make the homepage publications list use the full horizontal content area. */
+/* Make the homepage publications list stack vertically while using the full content width. */
 #publications .archive__item-list {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
-  gap: 1rem;
-  align-items: stretch;
+  display: flex;
+  flex-direction: column;
+  gap: 0.95rem;
   width: 100%;
 }
 
 #publications .list__item {
   width: 100% !important;
+  max-width: none !important;
   padding-right: 0 !important;
   margin: 0 !important;
 }
 
 #publications .archive__item.publication-entry {
-  height: 100%;
+  width: 100%;
+  max-width: none;
   margin: 0;
-  display: flex;
-  flex-direction: column;
+  display: block;
 }
 
 #publications .archive__item.publication-entry .archive__item-title {
-  font-size: 0.98rem;
-}
-
-#publications .archive__item.publication-entry .archive__item-excerpt {
-  flex: 1 1 auto;
+  font-size: 1.02rem;
 }
 
 /* Keep the homepage list scannable; the full citation remains on each Details page. */
@@ -591,18 +589,130 @@ body {
 }
 
 #publications .publication-actions {
-  margin-top: auto;
-  padding-top: 0.5rem;
+  margin-top: 0.75rem;
+  padding-top: 0.25rem;
 }
 
-@media screen and (min-width: 1180px) {
+@media screen and (max-width: 640px) {
   #publications .archive__item-list {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 0.85rem;
   }
 }
 
-@media screen and (max-width: 760px) {
-  #publications .archive__item-list {
-    grid-template-columns: 1fr;
+/* ==========================================================================
+   SECTION PAGES AND TEACHING LIST REDESIGN
+   ========================================================================== */
+
+/* Shared section-page styling for Research/Projects/Publications/Teaching. */
+.projects-wrapper {
+  max-width: 980px;
+  margin: 0 auto;
+  padding: 12px 0 32px;
+  font-family: "Helvetica Neue", Arial, sans-serif;
+}
+
+.projects-hero {
+  padding: 18px 20px;
+  border-radius: 14px;
+  background: linear-gradient(135deg, #f4f8ff 0%, #e8f0ff 100%);
+  border: 1px solid #c8d8f0;
+  box-shadow: 0 12px 28px rgba(9, 34, 68, 0.12);
+  margin-bottom: 20px;
+}
+
+.projects-hero h2 {
+  margin: 0 0 6px;
+  color: #0f2f63;
+  font-size: 1.35em;
+}
+
+.projects-hero p {
+  margin: 0;
+  color: #10253b;
+  font-size: 1em;
+}
+
+.projects-section {
+  margin-top: 24px;
+}
+
+.projects-section h3 {
+  margin: 0 0 10px;
+  color: #0f2f63;
+  border-bottom: 2px solid #1f5aa8;
+  display: inline-block;
+  padding-bottom: 4px;
+  font-size: 1.05em;
+}
+
+.project-card,
+.archive__item.teaching-entry {
+  padding: 14px 16px;
+  margin: 12px 0;
+  border-radius: 12px;
+  border: 1px solid #d5e2f5;
+  border-left: 5px solid #1f5aa8;
+  background: #ffffff;
+  box-shadow: 0 10px 24px rgba(9, 34, 68, 0.06);
+}
+
+.project-card h4,
+.archive__item.teaching-entry .archive__item-title {
+  margin: 0 0 6px;
+  color: #0f2f63;
+  font-size: 1.02em;
+}
+
+.archive__item.teaching-entry .archive__item-title a {
+  color: #0f2f63;
+  text-decoration: none;
+}
+
+.project-card p,
+.archive__item.teaching-entry p,
+.archive__item.teaching-entry .archive__item-excerpt {
+  margin: 0.35rem 0 0;
+  color: #10253b;
+  font-size: 0.98em;
+}
+
+#teaching .archive__item-list,
+.teaching-list,
+.research-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.95rem;
+  width: 100%;
+}
+
+#teaching .list__item,
+.teaching-list .list__item {
+  width: 100% !important;
+  max-width: none !important;
+  padding-right: 0 !important;
+  margin: 0 !important;
+}
+
+#teaching .archive__item.teaching-entry,
+.teaching-list .archive__item.teaching-entry {
+  width: 100%;
+  max-width: none;
+  margin: 0;
+  display: block;
+}
+
+.author-email-link {
+  white-space: nowrap;
+}
+
+/* Header cleanup: hide the empty priority-nav hamburger on desktop. */
+@media screen and (min-width: 769px) {
+  .greedy-nav button {
+    display: none !important;
   }
+}
+
+/* Keep the contact label clean while preserving the mailto hyperlink. */
+.author-email-link {
+  white-space: nowrap;
 }

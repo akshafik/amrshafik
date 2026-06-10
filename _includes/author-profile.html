@@ -35,9 +35,8 @@
       {% endif %}
       {% if author.email %}
         <li>
-          <a href="#" class="email-link" data-email-user="ashafik" data-email-domain="arizona.edu">
-            <i class="fas fa-fw fa-envelope icon-pad-right" aria-hidden="true"></i>
-            {{ site.data.ui-text[site.locale].email_label | default: "Email" }}
+          <a href="mailto:{{ author.email }}" class="author-email-link" aria-label="Email Amr Shafik">
+            <i class="fas fa-fw fa-envelope icon-pad-right" aria-hidden="true"></i>Email
           </a>
         </li>
       {% endif %}

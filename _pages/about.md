@@ -180,32 +180,3 @@ I am currently working as a <b>Research Scientist</b> in the Center of Applied T
 {% include cv-download-button.html %}
 </section>
 
-<section id="projects" class="section-block">
-  <h2>Projects</h2>
-  {% assign projects_page = site.pages | where: "permalink", "/projects/" | first %}
-  {% if projects_page %}
-    {{ projects_page.content }}
-  {% endif %}
-</section>
-
-<section id="publications" class="section-block">
-  <h2>Publications</h2>
-  {% if site.publications %}
-    <div class="archive__item-list">
-      {% for post in site.publications reversed %}
-        {% include archive-single.html %}
-      {% endfor %}
-    </div>
-  {% endif %}
-</section>
-
-<section id="teaching" class="section-block">
-  <h2>Teaching</h2>
-{% if site.teaching %}
-    <div class="archive__item-list">
-      {% for post in site.teaching reversed %}
-        {% include archive-single.html %}
-      {% endfor %}
-    </div>
-  {% endif %}
-</section>
