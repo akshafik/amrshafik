@@ -140,9 +140,6 @@ redirect_from:
 <section id="home" class="section-block">
   <div class="latest-highlight">
     <div class="latest-highlight__header">
-      <span class="latest-highlight__icon" aria-hidden="true">
-        <img src="{{ '/images/uofa-logo.png' | relative_url }}" alt="">
-      </span>
       <div>
         <div class="latest-highlight__eyebrow">Latest Highlight</div>
         <h3 class="latest-highlight__title">Passed the P.E. Exam</h3>
