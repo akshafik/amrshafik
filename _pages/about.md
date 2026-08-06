@@ -142,6 +142,18 @@ redirect_from:
     <div class="latest-highlight__header">
       <div>
         <div class="latest-highlight__eyebrow">Latest Highlight</div>
+        <h3 class="latest-highlight__title">Joined Iteris, Inc.</h3>
+      </div>
+    </div>
+    <p class="latest-highlight__copy">
+      I am excited to announce that I have joined <b>Iteris, Inc.</b> as a <b>Sr. Signal Optimization Engineer</b>, supporting traffic signal operations and optimization.
+    </p>
+  </div>
+
+  <div class="latest-highlight">
+    <div class="latest-highlight__header">
+      <div>
+        <div class="latest-highlight__eyebrow">Latest Highlight</div>
         <h3 class="latest-highlight__title">Passed the P.E. Exam</h3>
       </div>
     </div>
