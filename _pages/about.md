@@ -158,7 +158,7 @@ redirect_from:
 I hold a <b>Ph.D.</b> in Civil and Environmental Engineering from <b>Virginia Tech</b> (2025), advised by 
 <a href="https://www.vtti.vt.edu/staffdir/bio.php?&pn=111011" target="_blank">Prof. Hesham Rakha</a> (check my <a href="https://vtechworks.lib.vt.edu/items/c6754865-f6b5-46e6-add6-c2dc6135343b" target="_blank">doctoral thesis</a>). I have also passed the <b>Principles and Practice of Engineering (P.E.) exam</b>. Prior to that, I earned my <b>M.Sc. and B.Sc.</b> from <b>Cairo University</b> in my home country of Egypt.
 
-I am currently working as a <b>Research Scientist</b> in the Center of Applied Transportation Sciences (CATS) as well as the Arizona Transportation Institute (AZTI) at the University of Arizona. My research interests span a wide range of topics including traffic operations and transportation planning.
+I am currently working as a <b>Sr. Signal Optimization Engineer</b> at <b>Iteris, Inc.</b> My research interests span a wide range of topics including traffic operations and transportation planning.
 </p>
 </section>
 
