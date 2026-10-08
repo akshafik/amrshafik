@@ -154,11 +154,11 @@ redirect_from:
     <div class="latest-highlight__header">
       <div>
         <div class="latest-highlight__eyebrow">Latest Highlight</div>
-        <h3 class="latest-highlight__title">Passed the P.E. Exam</h3>
+        <h3 class="latest-highlight__title">Licensed Professional Engineer (P.E.)</h3>
       </div>
     </div>
     <p class="latest-highlight__copy">
-      I have passed the <b>Principles and Practice of Engineering (P.E.) exam</b>, marking an important professional milestone in my civil engineering and transportation career.
+      I am now a <b>licensed Professional Engineer (P.E.) in Virginia</b>, marking an important professional milestone in my civil engineering and transportation career.
     </p>
   </div>
 </section>
@@ -168,7 +168,7 @@ redirect_from:
 
 <p align="justify">
 I hold a <b>Ph.D.</b> in Civil and Environmental Engineering from <b>Virginia Tech</b> (2025), advised by 
-<a href="https://www.vtti.vt.edu/staffdir/bio.php?&pn=111011" target="_blank">Prof. Hesham Rakha</a> (check my <a href="https://vtechworks.lib.vt.edu/items/c6754865-f6b5-46e6-add6-c2dc6135343b" target="_blank">doctoral thesis</a>). I have also passed the <b>Principles and Practice of Engineering (P.E.) exam</b>. Prior to that, I earned my <b>M.Sc. and B.Sc.</b> from <b>Cairo University</b> in my home country of Egypt.
+<a href="https://www.vtti.vt.edu/staffdir/bio.php?&pn=111011" target="_blank">Prof. Hesham Rakha</a> (check my <a href="https://vtechworks.lib.vt.edu/items/c6754865-f6b5-46e6-add6-c2dc6135343b" target="_blank">doctoral thesis</a>). I am also a <b>licensed Professional Engineer (P.E.) in Virginia</b>. Prior to that, I earned my <b>M.Sc. and B.Sc.</b> from <b>Cairo University</b> in my home country of Egypt.
 
 I am currently working as a <b>Sr. Signal Optimization Engineer</b> at <b>Iteris, Inc.</b> My research interests span a wide range of topics including traffic operations and transportation planning.
 </p>
